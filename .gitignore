@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+
+# Checkpoint là sản phẩm, sinh lại bằng:
+#   python -m paga.train_awgn --surrogates 10
+#   python -m paga.train_channel --scenarios all --surrogates 4
+checkpoints/
+
+# Kho lưu trữ: baseline, script phân tích, kết quả cũ. Bỏ dòng dưới nếu muốn
+# công bố kèm.
+legacy/
